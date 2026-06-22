@@ -423,7 +423,6 @@ background: #7F90A4;
   top: 26px;
   right: 26px;
   object-fit: contain;
-  border-radius: 10px;
 }
 .exp-card__logo--wide { width: auto; max-width: 180px; height: 40px; border-radius: 6px; }
 
@@ -587,6 +586,8 @@ background: #7F90A4;
   .timeline__rail { display: none; }
   .timeline__list .exp-card::before { display: none; }
   .exp-card__piece { display: none; }
+  .exp-card__logo { position: static; align-self: flex-start; width: auto; max-height: 40px; }
+  .exp-card h3 { order: -1; }
   .exp-card__tags { gap: 12px; }
   .project__pair { flex-direction: column; }
 }
